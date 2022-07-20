@@ -1,0 +1,70 @@
+pyrcc5 #arquivo .qrc#.qrc -o #arquivo .py#.py converter imagem
+
+pyuic5 -x #arquivo .ui#.ui -o #arquivo .py#.py converter UI
+
+
+
+pyrcc5 img.qrc -o icones.py 
+
+
+
+pyuic5 -x Dashboard_Consultor.ui -o Dashboard_Consultor.py
+
+
+pyuic5 -x Dashboard_Gestor.ui -o Dashboard_Gestor.py
+
+
+pyuic5 -x Login_Token.ui -o Login_Token.py
+
+
+pyuic5 -x Login_User.ui -o Login_User.py
+
+
+pyuic5 -x Questionario.ui -o Questionario.py
+
+
+pyuic5 -x Mensagem.ui -o Mensagem.py
+
+
+self.horizontalLayoyt_4 = QtWidgets.QHBoxLayout(self.frame_10)
+self.horizontalLayoyt_4.setObjectName("layoutGrafico")
+#Graficos
+self.figure = plt.figure()
+self.canvas = FigureCanvasQTAgg(self.figure)
+self.horizontalLayoyt_4.addWidget(self.canvas)
+
+self.horizontalLayoyt_9 = QtWidgets.QHBoxLayout(self.frame_17)
+self.horizontalLayoyt_9.setObjectName("layoutGrafico5")
+#Graficos
+self.figure6 = plt.figure()
+self.canvas6 = FigureCanvasQTAgg(self.figure6)
+self.horizontalLayoyt_9.addWidget(self.canvas6)
+
+self.horizontalLayoyt_6 = QtWidgets.QHBoxLayout(self.frame_16)
+self.horizontalLayoyt_6.setObjectName("layoutGrafico2")
+#Graficos
+self.figure3 = plt.figure()
+self.canvas3 = FigureCanvasQTAgg(self.figure3)
+self.horizontalLayoyt_6.addWidget(self.canvas3)
+
+self.horizontalLayoyt_8 = QtWidgets.QHBoxLayout(self.frame_15)
+self.horizontalLayoyt_8.setObjectName("layoutGrafico4")
+#Graficos
+self.figure5 = plt.figure()
+self.canvas5 = FigureCanvasQTAgg(self.figure5)
+self.horizontalLayoyt_8.addWidget(self.canvas5)
+
+self.horizontalLayoyt_5 = QtWidgets.QHBoxLayout(self.frame_14)
+self.horizontalLayoyt_5.setObjectName("layoutGrafico1")
+#Graficos
+self.figure2 = plt.figure()
+self.canvas2 = FigureCanvasQTAgg(self.figure2)
+self.horizontalLayoyt_5.addWidget(self.canvas2)
+
+self.horizontalLayoyt_7 = QtWidgets.QHBoxLayout(self.frame_13)
+self.horizontalLayoyt_7.setObjectName("layoutGrafico3")
+#Graficos
+self.figure4 = plt.figure()
+self.canvas4 = FigureCanvasQTAgg(self.figure4)
+self.horizontalLayoyt_7.addWidget(self.canvas4)
+
