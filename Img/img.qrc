@@ -1,0 +1,45 @@
+<RCC>
+  <qresource prefix="icones">
+    <file>Desenvolvimento.jpg</file>
+    <file>Status_Gestor.jpg</file>
+    <file>Status.jpg</file>
+    <file>Proximos_quetionarios.jpg</file>
+    <file>Empresas.jpg</file>
+    <file>account_36.png</file>
+    <file>account_48.png</file>
+    <file>scanawe1a.png</file>
+    <file>scanawe2a.png</file>
+    <file>clipboard-list-outline.png</file>
+    <file>arrow-down-drop-circle.png</file>
+    <file>arrow-down-drop-circle-outline(1).png</file>
+    <file>file-sign.png</file>
+    <file>file-chart-outline.png</file>
+    <file>file-document-multiple-outline (1).png</file>
+    <file>file-document-multiple-outline.png</file>
+    <file>file-document-plus-outline.png</file>
+    <file>home (1).png</file>
+    <file>key.png</file>
+    <file>delete (1).png</file>
+    <file>delete.png</file>
+    <file>pencil (1).png</file>
+    <file>pencil.png</file>
+    <file>door-open(1).png</file>
+    <file>door-open.png</file>
+    <file>account.png</file>
+    <file>account-box-multiple.png</file>
+    <file>account-multiple-plus.png</file>
+    <file>arrow-left-thick.png</file>
+    <file>format-list-bulleted-square.png</file>
+    <file>magnify (1).png</file>
+    <file>magnify.png</file>
+    <file>arrow-right-thick.png</file>
+    <file>ant-design_unordered-list-outlined.png</file>
+    <file>ant-design_unordered-list-outlined-1.png</file>
+    <file>bx_add-to-queue.png</file>
+    <file>bxs_dashboard.png</file>
+    <file>carbon_industry.png</file>
+    <file>carbon_industry-1.png</file>
+    <file>fluent_quiz-new-20-regular.png</file>
+    <file>ic_baseline-token.png</file>
+  </qresource>
+</RCC>

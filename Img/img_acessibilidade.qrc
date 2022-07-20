@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="imagem">
+    <file>accessibility.png</file>
+    <file>Frame 74.png</file>
+  </qresource>
+</RCC>
