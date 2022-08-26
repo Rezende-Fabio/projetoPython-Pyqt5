@@ -148,7 +148,7 @@ class MenuGestor(QDialog):
             self.ui.Menu.move(10, 10)
     
     ########################################################################################
-    #Inetrações com Colaborador
+    #Interações com Colaborador
     def opcao_Colab(self):
         #Animação da abrir e fecahar o dropdown do Colaborador
         height = self.ui.frameColab.height()
