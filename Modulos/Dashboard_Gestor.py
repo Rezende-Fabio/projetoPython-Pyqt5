@@ -496,7 +496,7 @@ class MenuGestor(QDialog):
             resp_questC = Resposta.view_grafico_quest1_C_fase1()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.2)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -515,7 +515,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest2_D_fase1()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -534,7 +534,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest3_D_fase1()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -553,7 +553,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest4_D_fase1()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -572,7 +572,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest1_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -591,7 +591,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest2_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue", width = 0.4)
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -610,7 +610,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest3_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -629,7 +629,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest4_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -648,7 +648,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest5_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -667,7 +667,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest6_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -686,7 +686,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest6_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -705,7 +705,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest8_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -722,7 +722,7 @@ class MenuGestor(QDialog):
             resp_questB = Resposta.view_grafico_quest9_B()
             valores = [resp_questA[0], resp_questB[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
@@ -741,7 +741,7 @@ class MenuGestor(QDialog):
             resp_questD = Resposta.view_grafico_quest10_D()
             valores = [resp_questA[0], resp_questB[0], resp_questC[0], resp_questD[0]]  
 
-            plt.bar(respostas, valores, color = "blue", width = 0.4)
+            plt.barh(respostas, valores, color = "blue")
 
             plt.xlabel("Respostas")
             plt.ylabel("N° Respostas")
