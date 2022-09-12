@@ -1,0 +1,53 @@
+{
+    "Fase1": {
+        "Questao1": {
+            "Resposta": "Masculino"
+        },
+        "Questao2": {
+            "Resposta": "Entre 25 e 34 anos"
+        },
+        "Questao3": {
+            "Resposta": "Outro"
+        },
+        "Questao4": {
+            "Resposta": "Setor B"
+        }
+    },
+    "Fase2": {
+        "Questao1": {
+            "Resposta": "Diariamente"
+        },
+        "Questao2": {
+            "Resposta": "Semanalmente"
+        },
+        "Questao3": {
+            "Resposta": "\u00c0s vezes"
+        },
+        "Questao4": {
+            "Resposta": "Diariamente"
+        },
+        "Questao5": {
+            "Resposta": "Semanalmente"
+        },
+        "Questao6": {
+            "Resposta": "Um ano"
+        },
+        "Questao7": {
+            "Resposta1": "SIM",
+            "Resposta2": "SIM",
+            "Resposta3": "N\u00c3O",
+            "Resposta4": "SIM",
+            "Resposta5": "SIM",
+            "Resposta6": "SIM"
+        },
+        "Questao8": {
+            "Resposta": "Puniram voc\u00ea"
+        },
+        "Questao9": {
+            "Resposta": "N\u00e3o"
+        },
+        "Questao10": {
+            "Resposta": "Outros"
+        }
+    }
+}
